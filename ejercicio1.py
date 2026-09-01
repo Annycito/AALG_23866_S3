@@ -4,7 +4,7 @@ v1, v2, v3, v4 =["Agregar nombre y apellido",
                  "Eliminar un nombre",
                  "Salir"]
 while True:
-    print("\n--- MENÚ REPETITIVO ---")
+    print("\n****MENÚ REPETITIVO *****")
     print(f"1) {v1}")
     print(f"2) {v2}")
     print(f"3) {v3}")
@@ -20,7 +20,7 @@ while True:
         if not lista_nombres:
             print("La lista está vacía actualmente.")
         else:
-            print("\n--- LISTA DE NOMBRES ---")
+            print("\n****LISTA DE NOMBRES ****")
             for i, nombre in enumerate(lista_nombres, 1):
                 print(f"{i}. {nombre}")                
     elif opcion == "3":
